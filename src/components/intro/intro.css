@@ -5,6 +5,7 @@
 }
 
 .about__me {
+    padding-top: 90px;
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
@@ -20,7 +21,7 @@
 }
 
 .about__me-image:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .about__cards {
@@ -81,21 +82,36 @@
 }
   
 @media screen and (max-width: 600px){
+    section#about {
+        margin-top: 0.5rem !important;
+        padding-top: 0 !important;
+    }
+    .about__container {
+        gap: 1.2rem;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
     .about__me {
-        width: 65%;
-        margin: 0rem auto 3rem; 
+        width: 80%;
+        margin: 0.2rem auto 0.8rem;
+        z-index: 1;
+        position: relative;
     }
-
     .about__cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        position: relative;
+        z-index: 2;
+        margin-top: 1.2rem;
     }
-
     .about__content {
         text-align: center;
     }
 
     .about__content p {
-        margin: 1.5rem 0;
+        margin: 0.5rem 0;
+    }
+    #about h5, #about h2 {
+        margin-top: 0 !important;
     }
 }

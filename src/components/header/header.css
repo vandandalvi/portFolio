@@ -1,6 +1,7 @@
 header {
   height: 100%;
   padding-top: 7rem;
+  padding-bottom: 2rem;
   overflow: hidden;
 }
 
@@ -55,9 +56,21 @@ header {
 
 @media screen and (max-width: 600px){
   header {
-    height: 100vh;
+    padding-top: 1rem !important;
+    height: auto !important;
+    min-height: unset !important;
+    margin-bottom: 0 !important;
   }
-
+  .header__container {
+    height: auto !important;
+    min-height: unset !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .cta {
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
   .header__socials,
   .scroll__down {
     display: none;

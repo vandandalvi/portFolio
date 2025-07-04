@@ -3,9 +3,7 @@ import "./intro.css";
 import { FaAward } from "react-icons/fa";
 import React from "react";
 import { VscFolderLibrary } from "react-icons/vsc";
-import img from '../../assets/Me.png'
-
-// import ME from '../../assets/Rasif Tagizade image.jpg';
+import img from '../../assets/me.jpg'
 
 
 const Intro = () => {
@@ -16,7 +14,7 @@ const Intro = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={img} alt="Rasif Taghizade" />
+            <img src={img} alt="Vandan Dalvi" />
           </div>
         </div>
         <div className="about__content">
@@ -33,18 +31,12 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            1+ years experienced Front End Developer with hands-on experience in
-            identifying web-based user interactions along with designing and
-            implementing highly-responsive user interface components by
-            deploying React concepts. Proficient in translating designs and
-            wireframes into high-quality code, and writing application interface
-            code via JavaScript and React JS workflows. Adept at monitoring and
-            maintaining frontend performance and troubleshooting and debugging
-            the same to bolster overall performance.
+            Hey, I’m Vandan Dalvi, a Full Stack Developer with over a year of hands-on experience in building complete web applications that actually solve real-world problems. I specialize in crafting responsive, user-friendly interfaces using React and handling backend logic with Node.js and Express. Most of my projects are built from scratch—frontend, backend, and everything in between—where I make sure the user experience is smooth and the codebase is clean and maintainable.
+
+I’ve worked with both MongoDB and MySQL for database management and know how to connect the dots between the frontend and backend to keep the data flowing efficiently. I’m also deeply interested in AI integration 
+
+While I often use AI tools like ChatGPT,Gemini,Cluade,Perplexity,etc to speed up my development process, I always make sure I understand what’s going on behind the scenes.Exploring better system design practices, and diving into DSA to strengthen my foundation. At the end of the day, I enjoy building things that feel intuitive, helpful, and a little bit magical.
           </p>
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
         </div>
       </div>
     </section>

@@ -1,65 +1,53 @@
-# React JS Portfolio Website
+# Vandan Dalvi's Portfolio
 
-[🔗Live Demo🔗](https://rtaghizadev.vercel.app/)
-
-![Protfolio Website](src/assets/Portfolio%20preview.png)
-
-<div align="center">
-
-![GitHub repo size](https://img.shields.io/github/repo-size/Rasif-Taghizada/My-portfolio?color=yellow)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-</div>
-
-<table align="center">
-    <thead align="center">
-        <tr border: 1px;>
-            <td><b>Project Stats</td>
-            <td><b>🌟 Stars</b></td>
-            <td><b>🍴 Forks</b></td>
-            <td><b>🐛 Issues</b></td>
-            <td><b>🔔 Open PRs</b></td>
-            <td><b>🔕 Close PRs</b></td>
-        </tr>
-     </thead>
-    <tbody>
-         <tr>
-            <td><a href="https://github.com/Rasif-Taghizada/My-portfolio"</a>Project</td>
-            <td><img alt="Stars" src="https://img.shields.io/github/stars/Rasif-Taghizada/My-portfolio?style=flat&logo=github"/></td>
-             <td><img alt="Forks" src="https://img.shields.io/github/forks/Rasif-Taghizada/My-portfolio?style=flat&logo=github"/></td>
-            <td><img alt="Issues" src="https://img.shields.io/github/issues/Rasif-Taghizada/My-portfolio?style=flat&logo=github"/></td>
-            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/Rasif-Taghizada/My-portfolio?style=flat&logo=github"/></td>
-           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Rasif-Taghizada/My-portfolio?style=flat&color=critical&logo=github"/></td>
-        </tr>
-    </tbody>
-</table>
-
-<br/>
+Welcome to my portfolio! I'm Vandan Dalvi, a Full Stack Developer with a passion for building responsive and user-friendly web applications. This portfolio showcases my skills, projects, and experience.
 
 ## Features
 
-**📖 Single-Page Layout**
+- **Responsive Design**: The portfolio is designed to look great on all devices.
+- **Smooth Scrolling**: Navigate through sections with smooth scrolling.
+- **Project Showcase**: View my recent work and projects.
+- **Contact Information**: Get in touch with me easily.
 
-**🎨 Styled with React-Bootstrap and CSS with easy to customize colors**
+## Technologies Used
 
-**📱 Fully Responsive**
+- React
+- CSS
+- JavaScript
+- Node.js
+- Express
+- MongoDB
+- Git
 
-<br />
+## Installation
 
-## 🚀 How to get started?
+To run this project locally, follow these steps:
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/portFolio.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd portFolio
+   ```
+3. Install the dependencies:
+   ```
+   npm install
+   ```
+4. Start the development server:
+   ```
+   npm start
+   ```
 
-## 🛠 Installation and Setup Instructions
+## Contact
 
-1. Installation: `npm install`
+Feel free to reach out to me via email at [vandandalvi@gmail.com](mailto:vandandalvi@gmail.com).
 
-2. In the project directory, you can run: `npm start`
+## License
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser. 
-The page will reload if you make edits.
+This project is licensed under the MIT License.
 
-<br />
-Feel free to contribute to this repo.
+---
 
-### Show some ❤️&nbsp; by giving the star :star: to this repository!!
-<h1 align=center> 🧠 Happy Hacking 🧠 </h1>
+Feel free to customize the README content as needed!

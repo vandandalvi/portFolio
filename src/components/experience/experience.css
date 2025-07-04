@@ -1,3 +1,8 @@
+#experience {
+    padding: 3rem 0;
+    
+}
+
 .experience__container {
     display: grid;
     grid-template-columns: 1fr;

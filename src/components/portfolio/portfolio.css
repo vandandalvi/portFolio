@@ -18,9 +18,23 @@
 }
 
 .portfolio__item-image {
-    border-radius: 1.5rem;
+    border-radius: .5rem .5rem 0 0;
     overflow: hidden;
-    height: 30%;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 180px;
+}
+
+.portfolio__item-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: .5rem .5rem 0 0;
+    background: transparent;
+    display: block;
 }
 
 .portfolio__item h3 {
@@ -39,7 +53,7 @@
 }
 
 .portfolio__item-content {
-    height: 40%;
+    height: auto;
 }
 
 @media screen and (max-width: 1024px){

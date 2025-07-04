@@ -13,7 +13,7 @@
 :root {
   --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
+  --color-primary: #c3d294;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
@@ -60,7 +60,11 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 4rem;
+}
+
+section:first-of-type {
+  margin-top: 0 !important;
 }
 
 section > h2,
@@ -130,7 +134,39 @@ img {
     width: var(--container-width-sm);
   }
 
+  section {
+    margin-top: 2.5rem;
+  }
+
   section > h2 {
     margin-bottom: 2rem;
+  }
+}
+
+header {
+  padding-top: 7rem;
+}
+@media screen and (max-width: 1024px){
+  header {
+    height: 68vh;
+  }
+}
+@media screen and (max-width: 600px){
+  header {
+    padding-top: 2.5rem;
+  }
+}
+
+.about__container {
+  gap: 15%;
+}
+@media screen and (max-width: 1024px){
+  .about__container {
+    gap: 0;
+  }
+}
+@media screen and (max-width: 600px){
+  .about__container {
+    gap: 1rem;
   }
 }
