@@ -80,7 +80,7 @@ const Portfolio = () => {
           className="btn btn-primary"
           style={{ minWidth: '180px', textAlign: 'center' }}
         >
-          View All Projects
+          Click here to View All My Projects
         </a>
       </div>
 
