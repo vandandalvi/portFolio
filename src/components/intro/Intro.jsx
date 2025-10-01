@@ -31,7 +31,7 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            Hey, I’m Vandan Dalvi, a Full Stack Developer with over a year of hands-on experience in building complete web applications that actually solve real-world problems. I specialize in crafting responsive, user-friendly interfaces using React and handling backend logic with Node.js and Express. Most of my projects are built from scratch—frontend, backend, and everything in between—where I make sure the user experience is smooth and the codebase is clean and maintainable.
+            Hey, I’m Vandan Dalvi, a Full Stack Developer with over a year of hands-on experience in building complete web applications that actually solve real world problems. I specialize in crafting responsive, userFriendly interfaces using React and handling backend logic with Flask, Node.js and Express mostly. Most of my projects are built from scratch frontend, backend, and everything in between where I make sure the user experience is smooth and the codebase is clean and maintainable.
 
 I’ve worked with both MongoDB and MySQL for database management and know how to connect the dots between the frontend and backend to keep the data flowing efficiently. I’m also deeply interested in AI integration 
 
