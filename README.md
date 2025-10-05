@@ -6,7 +6,7 @@ Welcome to my portfolio! I'm Vandan Dalvi, a Full Stack Developer with a passion
 
 - **Responsive Design**: The portfolio is designed to look great on all devices.
 - **Smooth Scrolling**: Navigate through sections with smooth scrolling.
-- **Project Showcase**: View my recent work and project
+- **Project Showcase**: View my recent work and project's.
 - **Contact Information**: Get in touch with me easily.
 
 ## Technologies Used
