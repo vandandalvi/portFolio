@@ -31,11 +31,11 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            Hey, I’m Vandan Dalvi, a Full Stack Developer with over a year of hands-on experience in building complete web applications that actually solve real world problems. I specialize in crafting responsive, userFriendly interfaces using React and handling backend logic with Flask, Node.js and Express mostly. Most of my projects are built from scratch frontend, backend, and everything in between where I make sure the user experience is smooth and the codebase is clean and maintainable.
+            Hey, I'm Vandan Dalvi, a Full Stack Developer specializing in AI-powered web applications. As a final-year IT engineering student, I focus on building practical, product-oriented systems rather than isolated academic models. I have hands-on experience across the complete ML workflow—from data preprocessing and feature engineering to model training, evaluation, and deployment via RESTful APIs using Flask.
 
-I’ve worked with both MongoDB and MySQL for database management and know how to connect the dots between the frontend and backend to keep the data flowing efficiently. I’m also deeply interested in AI integration 
+I build web applications from scratch using React for responsive frontends and Flask/Node.js for robust backends, connected to MongoDB or MySQL databases. My projects integrate machine learning models with real-world applications, ensuring seamless data flow and intuitive user experiences.
 
-While I often use AI tools like ChatGPT,Gemini,Cluade,Perplexity,etc to speed up my development process, I always make sure I understand what’s going on behind the scenes.Exploring better system design practices, and diving into DSA to strengthen my foundation. At the end of the day, I enjoy building things that feel intuitive, helpful, and a little bit magical.
+I leverage modern AI tools strategically to accelerate development while maintaining a deep understanding of system architecture. Currently exploring advanced system design patterns and strengthening my DSA foundation to build scalable, maintainable solutions.
           </p>
         </div>
       </div>

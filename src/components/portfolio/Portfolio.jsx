@@ -6,13 +6,22 @@ import mumbai from '../../assets/mumbai.png';
 import snapSoul from '../../assets/snapSoul.png';
 import techMatch from '../../assets/techMatch.png';
 import vandansStore from '../../assets/vandansStore.png';
-import me from '../../assets/ocr.png';
+import me from '../../assets/talkito.png';
 
 //Portfolio function
 const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
+      title: "Talkito AI Interviewer",
+      img: me,
+      description: "Real-time behavioral analysis, brutally honest feedback, and human-like AI interviewers that prepare you for the pressure of actual interviews. Because nice feedback doesn't get you hired.",
+      technologies: "React | AI | WebRTC",
+      link: "https://demotalkito.vercel.app/",
+      github: "",
+    },
+    {
+      id: 2,
       title: "ClaimSense",
       img: claimSense,
       description: "AI powered Auto Insurance Claim Processing System",
@@ -21,7 +30,7 @@ const Portfolio = () => {
       github: "https://github.com/vandandalvi/insurance-claim-genai.git",
     },
     {
-      id: 2,
+      id: 3,
       title: "Mumbai Live PriceMap",
       img: mumbai,
       description: "Explore area-wise real-time flat rates using an interactive city map.",
@@ -30,7 +39,7 @@ const Portfolio = () => {
       github: "https://github.com/vandandalvi/mumbai-house-updater.git",
     },
     {
-      id: 3,
+      id: 4,
       title: "SnapSoul",
       img: snapSoul,
       description: "Capture your Memories",
@@ -39,7 +48,7 @@ const Portfolio = () => {
       github: "https://github.com/vandandalvi/SnapSoul.git",
     },
     {
-      id: 4,
+      id: 5,
       title: "TechMatch",
       img: techMatch,
       description: "ML based Tech Matching platform",
@@ -48,22 +57,13 @@ const Portfolio = () => {
       github: "https://github.com/vandandalvi/ML-PROJECT-.git",
     },
     {
-      id: 5,
+      id: 6,
       title: "Vandan Store",
       img: vandansStore,
       description: "E-commerce website for selling products",
       technologies: " Node.js | MongoDB",
       link: "https://ecommerce-website-1-6hwh.onrender.com/",
       github: "https://github.com/vandandalvi/ecommerce-website.git",
-    },
-    {
-      id: 6,
-      title: "AI OCR Vision",
-      img: me,
-      description: "Place your cam in front of question get instant AI gen ANSWER.",
-      technologies: "React | OpenAI | Tesseract",
-      link: "https://image-ocr-1.onrender.com/",
-      github: "https://github.com/vandandalvi/IMAGE-OCR.git",
     },
   ];
 
@@ -96,14 +96,16 @@ const Portfolio = () => {
               <p>{pro.technologies}</p>
             </div>
             <div className="portfolio__item-cta">
-              <a
-                href={pro.github}
-                target="_blank"
-                className="btn"
-                rel="noreferrer"
-              >
-                GitHub
-              </a>
+              {pro.github && (
+                <a
+                  href={pro.github}
+                  target="_blank"
+                  className="btn"
+                  rel="noreferrer"
+                >
+                  GitHub
+                </a>
+              )}
               <a
                 href={pro.link}
                 target="_blank"

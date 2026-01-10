@@ -10,6 +10,9 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .portfolio__item:hover {
@@ -39,21 +42,33 @@
 
 .portfolio__item h3 {
     margin: 2rem 0;
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio__item p {
     margin: 0 0 1.2rem 0;
     font-size: 0.9rem;
+    flex-grow: 0;
+}
+
+.portfolio__item p:first-of-type {
+    flex-grow: 1;
 }
 
 .portfolio__item-cta {
     display: flex;
     gap: 1rem;
-    margin-bottom: 2rem; 
+    margin-bottom: 2rem;
+    margin-top: auto;
 }
 
 .portfolio__item-content {
     height: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 1024px){
