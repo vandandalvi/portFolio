@@ -36,7 +36,7 @@ const Portfolio = () => {
       description: "Explore area-wise real-time flat rates using an interactive city map.",
       technologies: "React | Leaflet | OpenStreetMap",
       link: "https://mumbai1bhk.vercel.app/",
-      github: "https://github.com/vandandalvi/mumbai-house-updater.git",
+      github: "https://urban-price-radar.vercel.app/t",
     },
     {
       id: 4,
